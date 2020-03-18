@@ -1,0 +1,14 @@
+@import '@material/textfield/mdc-text-field';
+@import '@material/floating-label/mdc-floating-label';
+
+.primary {
+  &.mdc-text-field {
+    --mdc-theme-primary: #167fa6;
+  }
+  &.mdc-text-field--focused:not(.mdc-text-field--disabled) {
+    .mdc-floating-label {
+      @include mdc-floating-label-ink-color(#167fa6);
+      color: #167fa6;
+    }
+  }
+}

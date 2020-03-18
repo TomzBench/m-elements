@@ -1,0 +1,49 @@
+{
+  "name": "m-elements",
+  "version": "0.0.1",
+  "description": "Framework Agnostic Web Components",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "storybook:start": "start-storybook -p 6006",
+    "storybook:build": "build-storybook"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@webcomponents/webcomponentsjs": "^2.4.1",
+    "lit-element": "^2.2.1",
+    "lit-html": "^1.1.2",
+    "material-components-web": "^5.0.0",
+    "sass": "^1.25.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.4",
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "@babel/plugin-proposal-decorators": "^7.8.3",
+    "@babel/plugin-transform-runtime": "^7.8.3",
+    "@babel/preset-env": "^7.8.4",
+    "@storybook/html": "^5.3.13",
+    "autoprefixer": "^9.7.4",
+    "babel-loader": "^8.0.6",
+    "clean-webpack-plugin": "^3.0.0",
+    "command-line-args": "^5.1.1",
+    "command-line-usage": "^6.1.0",
+    "copy-webpack-plugin": "^5.1.1",
+    "css-loader": "^3.4.2",
+    "extract-loader": "^4.0.3",
+    "file-loader": "^5.0.2",
+    "html-webpack-plugin": "^3.2.0",
+    "husky": "^4.2.3",
+    "node-sass-import": "^2.0.1",
+    "postcss-loader": "^3.0.0",
+    "sass-loader": "^8.0.2",
+    "ts-loader": "^6.2.1",
+    "typescript": "^3.7.5",
+    "webpack": "^4.41.6",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3",
+    "webpack-merge": "^4.2.2"
+  }
+}

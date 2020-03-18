@@ -1,0 +1,47 @@
+@import '@material/textfield/mdc-text-field';
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px; /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+}
+// .mdc-text-field {
+//   @include mdc-text-field-density(-4);
+// }
+//
+// .primary {
+//   &.mdc-text-field {
+//     --mdc-theme-primary: #167fa6;
+//     --mdc-theme-text-primary-on-dark: #167fa6;
+//     --mdc-theme-text-primary-on-background: #167fa6;
+//     --mdc-theme-secondary: $secondary-color;
+//   }
+//   .mdc-text-field--focused:not(.mdc-text-field--disabled) {
+//     .mdc-floating-label {
+//       color: #167fa6;
+//       --mdc-theme-primary: #167fa6;
+//       --mdc-theme-text-primary-on-dark: #167fa6;
+//       --mdc-theme-text-primary-on-background: #167fa6;
+//       --mdc-theme-secondary: $secondary-color;
+//     }
+//   }
+// }
